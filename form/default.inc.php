@@ -1,3 +1,4 @@
+<style type="text/css">
 * {
   margin: 0;
   padding: 0;
@@ -34,3 +35,11 @@ input[type="submit"] {
   font-family: 'Chelsea Market', cursive;
   border: none;
 }
+
+</style>
+
+<section class="hero-images-section" id="home">
+</section>
+
+<h2>Sorry something went wrong with your submission</h2>
+<p>Please try again.</p>
