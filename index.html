@@ -19,13 +19,62 @@
     </head>
 
     <body>
-      <main>
 
       <section class="hero-images-section" id="home">
+      </section>
 
-      </section>  
+      <form name="contact me " method="" action="">
+        <div class="first-name">
+          <label for="firstname" class="label_input_wrap">First Name:</label>
+          <input type="text" name="firstname" id="firstname" />
+        </div>
 
-      </main>
+        <div class="last-name">
+          <label for="lastname" class="label_input_wrap">Last Name:</label>
+          <input type="text" name="lastname" id="lastname" />
+        </div>
+
+        <div class="email">
+          <label for="email" class="label_input_wrap">Email:</label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <div class="telephone">
+          <label for="telephone" class="label_input_wrap">Telephone:</label>
+          <input type="tel" name="telephone" id="telephone" />
+        </div>
+
+        <div class="comments">
+          <label for="comments" class="label_input_wrap">Comments:</label>
+          <textarea name="comments" maxlength="1000"></textarea>
+        </div>
+
+        <div class="radiobutton">
+          <h3>Favorite Color</h3>
+          <input type="radio" name="colors" value="blue" id="blue" /><label for="blue">Blue</label>
+          <input type="radio" name="colors" value="red" id="red" /><label for="red">Red</label>
+          <input type="radio" name="colors" value="yellow" id="yellow" /><label for="yellow">Yellow</label>
+          <input type="radio" name="colors" value="green" id="green" /><label for="green">Green</label>
+        </div>
+
+        <div class="dropdown">
+          <label for="lunch" class="label_input_wrap">Will you buy a lunch or bring a lunch?</label>
+          <select name="lunch" id="lunch">
+            <option value="bring">Bring a lunch.</option>
+            <option value="buy">Buy a lunch.</option>
+          </select>
+        </div>
+
+
+
+
+
+        <div class="submit">
+          <input type="submit" />
+        </div>
+
+
+      </form>
 
 
     </body>

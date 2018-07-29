@@ -4,10 +4,13 @@
   border: 0;
 }
 
-
 .hero-images-section {
   background-image: url("../images/backgroundimage.jpg");
   background-attachment: fixed;
   background-size: cover;
-  padding: 500px 0;
-}
+  padding: 300px 0;
+  }
+
+  label .label_input_wrap{
+    display: block;
+  }
