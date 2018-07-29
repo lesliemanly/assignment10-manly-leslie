@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+.hero-images-section {
+  background-image: url("../images/backgroundimage.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 500px 0;
+}
